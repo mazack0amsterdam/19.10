@@ -1,4 +1,4 @@
-fetch("https://reqres.in/api/users")
-    .then(res => {
-        console.log(res);
-    })
+(async () => {
+   const res = await fetch("https://reqres.in/api/users");
+   console.log(res);
+})();
